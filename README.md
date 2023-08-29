@@ -25,11 +25,15 @@ npm init
 npm install typescript --save-dev
 npx tsc --init
 npm install --save-dev @tsconfig/node16
-npm i -D @types/node
+npm i -D ts-node tslib @types/node
+npm i ts-node-dev --save-dev
 ```
 
 - [tsconfig for node16](https://www.npmjs.com/package/@tsconfig/node16)
 - [tsconfig for node18](https://www.npmjs.com/package/@tsconfig/node18)
+- [restart target node process with typescript](https://www.npmjs.com/package/ts-node-dev)
+- [ts-node is a TypeScript execution engine and REPL for Node.js.](https://typestrong.org/ts-node/docs/)
+- [Compiles your TS app and restarts when files are modified.](https://www.npmjs.com/package/ts-node-dev)
 
 **Configuration**
 

@@ -1,4 +1,5 @@
 import { Example } from "./examples";
+import os from "node:os";
 
 interface TestDrivenDevelopmentGuideline {
   title: string;
@@ -17,7 +18,7 @@ const main = () => {
   examples.forEach((example) => {
     console.log(example);
   });
-  console.log(guideline);
+  console.log(guideline, "123");
 };
 
 main();
