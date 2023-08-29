@@ -45,6 +45,7 @@ npm i jest-junit --save-dev
 - [x] Support Exactly Node Version
 - [x] Src Directory vs Build(Dist) Directory
 - [x] Alias
+- [x] Support Debug
 
 ### Setup Jest
 
@@ -54,4 +55,15 @@ npm i jest-junit --save-dev
 npm install --save-dev jest
 npm i -D ts-jest @types/jest
 npx ts-jest config:init
+```
+
+### Setup Github Actions to run test
+
+- [Quick start](https://docs.github.com/en/actions/quickstart)
+- [Github Action Runners](https://docs.github.com/en/actions/using-jobs/choosing-the-runner-for-a-job#choosing-github-hosted-runners)
+- [Example with nodejs](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs)
+- [Available Actions](https://github.com/actions)
+
+```sh
+mkdir -p .github/workflows
 ```
