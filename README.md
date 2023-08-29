@@ -29,6 +29,7 @@ npm i -D ts-node tslib @types/node
 npm i ts-node-dev --save-dev
 # support alias
 npm i tsconfig-paths --save-dev
+npm i jest-junit --save-dev
 ```
 
 - [tsconfig for node16](https://www.npmjs.com/package/@tsconfig/node16)
@@ -36,6 +37,7 @@ npm i tsconfig-paths --save-dev
 - [restart target node process with typescript](https://www.npmjs.com/package/ts-node-dev)
 - [ts-node is a TypeScript execution engine and REPL for Node.js.](https://typestrong.org/ts-node/docs/)
 - [Compiles your TS app and restarts when files are modified.](https://www.npmjs.com/package/ts-node-dev)
+- [A Jest reporter that creates compatible junit xml files](https://www.npmjs.com/package/jest-junit)
 
 **Configuration**
 
