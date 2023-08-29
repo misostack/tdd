@@ -12,7 +12,16 @@
             "runtimeExecutable": "npm",
             "runtimeArgs": ["run", "start:dev", "./${relativeFileDirname}/${fileBasename}"],
             "restart": false
-        },        
+        },  
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug Test Directly",
+            "cwd": "${workspaceRoot}",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": ["run", "test", "./${relativeFileDirname}/${fileBasename}"],
+            "restart": false
+        },                
         {
             "type": "node",
             "request": "attach",

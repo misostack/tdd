@@ -27,6 +27,8 @@ npx tsc --init
 npm install --save-dev @tsconfig/node16
 npm i -D ts-node tslib @types/node
 npm i ts-node-dev --save-dev
+# support alias
+npm i tsconfig-paths --save-dev
 ```
 
 - [tsconfig for node16](https://www.npmjs.com/package/@tsconfig/node16)
@@ -41,3 +43,13 @@ npm i ts-node-dev --save-dev
 - [x] Support Exactly Node Version
 - [x] Src Directory vs Build(Dist) Directory
 - [x] Alias
+
+### Setup Jest
+
+- [Setup JestJS](https://jestjs.io/docs/getting-started)
+
+```sh
+npm install --save-dev jest
+npm i -D ts-jest @types/jest
+npx ts-jest config:init
+```

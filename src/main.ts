@@ -1,4 +1,4 @@
-import { Example } from "./examples";
+import { Example } from "@/examples";
 import os from "node:os";
 
 interface TestDrivenDevelopmentGuideline {
@@ -7,7 +7,7 @@ interface TestDrivenDevelopmentGuideline {
   author: string;
 }
 
-const main = () => {
+export const main = () => {
   const guideline: TestDrivenDevelopmentGuideline = {
     title: "Test Driven Development Guidelines 2023",
     version: "2023-09",
