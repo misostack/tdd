@@ -113,3 +113,5 @@ mkdir -p .github/workflows
 
 - It sounds obvious, but code that is badly designed tends to be rigid, difficult to adapt or re-use in some other context, and full of side effects.
 - With DDT, we wanted a testing process that inherently promotes good design and well-written, easily testable code.
+
+![image](https://user-images.githubusercontent.com/31009750/265255252-aeb2c62d-2eae-4390-9673-72e93af09298.png)
