@@ -115,3 +115,15 @@ mkdir -p .github/workflows
 - With DDT, we wanted a testing process that inherently promotes good design and well-written, easily testable code.
 
 ![image](https://user-images.githubusercontent.com/31009750/265255252-aeb2c62d-2eae-4390-9673-72e93af09298.png)
+
+### Example for Login Use Case
+
+Start with
+
+![image](https://user-images.githubusercontent.com/31009750/265267699-d38b6e56-cb71-4aaf-8ae1-01df3745aa0c.png)
+
+Then
+
+![image](https://user-images.githubusercontent.com/31009750/265270456-60760354-0530-4d54-8de3-1af9add5ae06.png)
+
+Then
