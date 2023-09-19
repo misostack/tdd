@@ -1,34 +1,38 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Debug Application Directly",
-            "cwd": "${workspaceRoot}",
-            "runtimeExecutable": "npm",
-            "runtimeArgs": ["run", "start:dev", "./${relativeFileDirname}/${fileBasename}"],
-            "restart": false
-        },  
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Debug Test Directly",
-            "cwd": "${workspaceRoot}",
-            "runtimeExecutable": "npm",
-            "runtimeArgs": ["run", "test", "./${relativeFileDirname}/${fileBasename}"],
-            "restart": false
-        },                
-        {
-            "type": "node",
-            "request": "attach",
-            "name": "Attach to start:debug",
-            "port": 4321,
-            "restart": false,
-            "cwd": "${workspaceRoot}"
-          },
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Application Directly",
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "start:dev",
+        "./${relativeFileDirname}/${fileBasename}"
+      ],
+      "restart": false
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Test Directly",
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "test", "${file}"],
+      "restart": false
+    },
+    {
+      "type": "node",
+      "request": "attach",
+      "name": "Attach to start:debug",
+      "port": 4321,
+      "restart": false,
+      "cwd": "${workspaceRoot}"
+    }
+  ]
 }

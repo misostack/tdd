@@ -8,7 +8,7 @@
     "start:debug": "ts-node-dev -r tsconfig-paths/register --transpile-only --exit-child --inspect=4321 --project tsconfig.dev.json src/main.ts",
     "start:dev": "ts-node-dev -r tsconfig-paths/register --transpile-only  --exit-child --project tsconfig.dev.json",
     "build": "tsc -p tsconfig.production.json",
-    "test": "jest"
+    "test": "jest --runTestsByPath"
   },
   "keywords": [
     "tdd",
@@ -31,6 +31,8 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@tsconfig/node16": "^16.1.1"
+    "@tsconfig/node16": "^16.1.1",
+    "reflect-metadata": "^0.1.13",
+    "tsyringe": "^4.8.0"
   }
 }
